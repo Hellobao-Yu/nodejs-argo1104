@@ -41,7 +41,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ env.REPO_OWNER_LOWER }}/superbao:2283
+            ghcr.io/${{ env.REPO_OWNER_LOWER }}/superbao:railway
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
